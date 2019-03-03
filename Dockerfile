@@ -1,7 +1,6 @@
 #Latest version of node tested on.
 FROM node:8-alpine AS dist
 
-WORKDIR /app
 
 # Only run npm install if these files change.
 ADD ./package.json /app/package.json
